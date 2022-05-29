@@ -44,3 +44,7 @@ body{
 	/*font-weight: bold;*/
 	color: white;
 }
+ /* esta es para el boton de Registrar*/
+ .btnRegistrar{
+	 text-align: center;
+ }
