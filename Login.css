@@ -30,9 +30,12 @@ body{
 	color: white;
 	font-weight: bolder;
  }
+
+
+
  /* se trabajo con el div de ingrese un nombre*/
 .inputNombre input[type=text]{
-	padding-left: 40px;
+	padding-left: 50px;
 }
 .inputNombre{
 	position: relative;
@@ -40,17 +43,24 @@ body{
 .inputNombre i{
 	position: absolute;
 	left: 0;
-	top: 8px;
-	padding: 0 8px;
+	top: 0;
+	padding: 4px 6px;
 	color: black;
-	font-size: 25px;
+	font-size: 30px;
+	background-color: dodgerblue;
+	border-radius: 10%;
 }
-.inputNombre input[type=text]:focus + i{
+
+/*.inputNombre input[type=text]:focus + i{
 	color: dodgerblue;
-}
+}*/
+
+
+
+
  /* se trabajo con el div de ingrese una contraseña*/
 .inputContrasenna input[type=password]{
-	padding-left: 40px;
+	padding-left: 50px;
 }
 .inputContrasenna{
 	position: relative;
@@ -58,10 +68,12 @@ body{
 .inputContrasenna i{
 	position: absolute;
 	left: 0;
-	top: 8px;
-	padding: 0 8px;
+	top: 0;
+	padding: 4px 6px;
 	color: black;
-	font-size: 25px;
+	font-size: 30px;
+	background-color: dodgerblue;
+	border-radius: 10%;
 }
 /*este medodo de abajo es para cuando se da click en el input se pinte el icono del color que se quiera*/
 /*.inputContrasenna input[type=password]:focus + i {
