@@ -8,3 +8,12 @@
 	margin-right: auto;
 	margin-top: 16px;	
  }
+ .titulo{
+	 text-align: center;
+	 position: relative;
+	 width: 100px;
+	 height: 100px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 0px;	
+ }
