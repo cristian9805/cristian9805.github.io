@@ -73,7 +73,16 @@ body{
 	color: black;
 	font-size: 30px;
 	background-color: dodgerblue;
-	border-radius: 10%;
+	border-radius: 5%;
+}
+.inputContrasenna o{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 7px 3px;
+	color: black;
+	font-size: 25px;
+	border-radius: 5%;
 }
 /*este medodo de abajo es para cuando se da click en el input se pinte el icono del color que se quiera*/
 /*.inputContrasenna input[type=password]:focus + i {
