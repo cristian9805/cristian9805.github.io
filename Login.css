@@ -1,19 +1,27 @@
 /* esta es para la configuracion de la imagen del login*/ 
+.container{
+	border-radius: 15px;
+	border-color: black;
+	box-shadow: 0 0 120px 10px black;
+	border-style:solid;
+	width: 650px;
+	height: 700px;
+}
 .imagen{
 	text-align: center;
 	position: relative;
-	width: 200px;
-  	height: 200px;
+	width: 150px;
+  	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 16px;	
+	margin-top: 10px;	
  }
  .titulo{
 	 text-align: center;
-	 position: relative;
-	 width: 100px;
-	 height: 100px;
+	 
+	 width: auto;
+	 height: auto;
 	 margin-left: auto;
 	 margin-right: auto;
-	 margin-top: 0px;	
+	 margin-top: 50px;	
  }
