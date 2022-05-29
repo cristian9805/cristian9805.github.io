@@ -1,13 +1,17 @@
 /* esta es para la configuracion de la imagen del login*/ 
+body{
+	background-image: url(imagenes/32011-negro.jpg);
+}
 .container{
 	border-radius: 15px;
 	border-color: black;
-	box-shadow: 0 0 120px 10px black;
+	box-shadow: 0 0 20px 1px white;
 	border-style:solid;
 	width: 650px;
 	height: 700px;
 }
 .imagen{
+	color: white;
 	text-align: center;
 	position: relative;
 	width: 150px;
@@ -18,10 +22,18 @@
  }
  .titulo{
 	 text-align: center;
-	 
+	 color: white;
 	 width: auto;
 	 height: auto;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 50px;	
+ }
+ .enlaceRegitro{
+	 text-align: center;
+	 font-size: 20px;
+ }
+ .label1{/* el label de mensaje "si no estas registrado"*/
+	color: white;
+	font-weight: bolder;
  }
