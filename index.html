@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Calcular Salario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/734578f417.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Login.css">
 </head>
 <body>
@@ -18,17 +19,26 @@
         </div>
 
         <div class="titulo">
-            <h1 class="text-lg-start">Inicio de seccion</h1>
+            <p class="fw-lighter">Inicio de seccion</p>
         </div>
             
         <div class="inputNombre">
-            <input class="form-control" id="txtNomUsu" name="txtNomUsu" type="text" placeholder="Escriba su nombre de usuario" aria-describedby="passwordHelpBlock"><br>
-        </div>
+            <input class="form-control" id="txtNomUsu" name="txtNomUsu" type="text" placeholder="Escriba su nombre de usuario" 
+            aria-describedby="passwordHelpBlock">
+            <i class="fa-solid fa-user"></i> 
+        </div><br>
 
         <div class="inputContrasenna">
             <input class="form-control" id="txtContrasenna" name="txtContrasenna" type="password" placeholder="Escriba su contraseña" aria-describedby="passwordHelpBlock"><br>
-        
+            <i class="fa-solid fa-lock"></i>
+            <span class="verContraseña" >
+                <i id="ojoAbierto" class="fa-solid fa-eye"></i>
+                <i id="ojoCerrado" class="fa-solid fa-eye-slash"></i>
+            </span>
         </div>
+        <div class="btnIngresar">
+            <input class="btn btn-primary" type="button" value="Ingresar">
+        </div><br>
 
         <div class="enlaceRegitro">
             <label class="label1" for="">Si no estas registrado </label>

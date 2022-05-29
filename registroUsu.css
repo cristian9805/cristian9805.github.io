@@ -1,4 +1,7 @@
- /* esta es para la verificacion de la Primer contrasenna*/ 
+body{
+	background-image: url(imagenes/32017-negro.jpg);
+}
+/* esta es para la verificacion de la Primer contrasenna*/ 
 .input-contrasenna1{
     position: relative;
 }
@@ -34,4 +37,10 @@
 }
 #ojoCerrado2{
     display: none;
+}
+.titulo{
+	text-align: center;
+	font-size: 45px;
+	/*font-weight: bold;*/
+	color: white;
 }
