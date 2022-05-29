@@ -2,14 +2,6 @@
 body{
 	background-image: url(imagenes/32011-negro.jpg);
 }
-.container{
-	border-radius: 15px;
-	border-color: black;
-	box-shadow: 0 0 20px 1px white;
-	border-style:solid;
-	width: 650px;
-	height: 700px;
-}
 .imagen{
 	color: white;
 	text-align: center;
